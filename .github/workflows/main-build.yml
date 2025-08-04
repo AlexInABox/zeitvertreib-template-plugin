@@ -3,7 +3,7 @@ name: Build and Draft Release
 on:
   push:
     branches:
-      - master
+      - main
   workflow_dispatch:
 
 env:
