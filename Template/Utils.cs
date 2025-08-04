@@ -17,7 +17,7 @@ public static class Utils
             new SSKeybindSetting(
                 Plugin.Instance.Config!.KeybindId,
                 Plugin.Instance.Translation.KeybindSettingLabel,
-                KeyCode.None, false, false,
+                KeyCode.None, true, false,
                 Plugin.Instance.Translation.KeybindSettingHintDescription)
         ];
 

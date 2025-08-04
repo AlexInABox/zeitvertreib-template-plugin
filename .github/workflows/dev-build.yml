@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 env:
-  REFERENCES_URL: https://exslmod-team.github.io/SL-References/Dev.zip
+  REFERENCES_URL: https://dev.zeitvertreib.vip/assets/buildtools/scpsl-references.zip
   EXILED_REFERENCES: ${{ github.workspace }}/References
 
 jobs:
